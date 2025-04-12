@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Espetinho da Hora</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #fff8f5; color: #333; }
+    header { background: #d62828; color: white; padding: 1.5rem; text-align: center; }
+    nav { background: #f77f00; display: flex; justify-content: center; gap: 1rem; padding: 1rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; }
+    .hero { background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover; color: white; text-align: center; padding: 5rem 2rem; }
+    .hero h1 { font-size: 3rem; margin: 0; }
+    .cardapio-item { margin: 1rem 0; padding: 1rem; background: #ffe5d9; border-radius: 8px; }
+    .btn { display: inline-block; padding: 0.75rem 1.5rem; background: #d62828; color: white; border-radius: 4px; text-decoration: none; margin-top: 1rem; }
+    footer { background: #333; color: white; text-align: center; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Espetinho da Hora</h1>
+    <p>O melhor espetinho gourmet com preço justo e sabor inesquecível!</p>
+  </header>
+
+  <nav>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#pedido">Peça Online</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Espetinho é na Hora!</h1>
+    <p>Simplesmente irresistível. Aqui, cada espetinho é feito com carinho, sabor e aquele toque especial que só a gente tem!</p>
+  </section>
+
+  <section id="cardapio">
+    <h2>Cardápio</h2>
+    <div class="cardapio-item">
+      <h3>Espetinho Normal</h3>
+      <p>Carne selecionada no espeto. Simples, saboroso, perfeito. <strong>R$ 8,00</strong></p>
+    </div>
+    <div class="cardapio-item">
+      <h3>Espetinho Completo</h3>
+      <p>Espeto com arroz, vinagrete e farofa. Uma refeição completa por <strong>R$ 10,00</strong></p>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos apaixonados por churrasco e por entregar qualidade aos nossos clientes. No Espetinho da Hora, cada cliente é tratado com respeito e cada espetinho é preparado com dedicação e sabor!</p>
+  </section>
+
+  <section id="pedido">
+    <h2>Peça Online</h2>
+    <p>Quer pedir agora? É só clicar no botão abaixo e fazer seu pedido pelo WhatsApp!</p>
+    <a class="btn" href="https://wa.me/seunumeroaqui" target="_blank">Fazer Pedido</a>
+  </section>
+
+  <section id="contato">
+    <h2>Contato & Localização</h2>
+    <p>Estamos em Almenara, MG. Dúvidas, sugestões ou elogios? Fale com a gente pelo WhatsApp!</p>
+    <a class="btn" href="https://wa.me/seunumeroaqui" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Espetinho da Hora. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
